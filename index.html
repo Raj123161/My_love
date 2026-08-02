@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Baby ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
 <div class="container">
 
 <div id="heart">
@@ -8,12 +21,38 @@
 🔑
 </div>
 
-<h2 id="keyText">
-Mikki Baccha Key
-</h2>
+<h2>Mikki Baccha Key</h2>
 
 <p>
 Click karke apna surprise dekho ❤️
 </p>
 
 </div>
+
+<script>
+
+function openHeart(){
+
+let key=document.getElementById("key");
+let heart=document.getElementById("heart");
+
+key.classList.add("move");
+
+setTimeout(function(){
+
+heart.classList.add("glow");
+
+},1000);
+
+setTimeout(function(){
+
+window.location.href="message.html";
+
+},2500);
+
+}
+
+</script>
+
+</body>
+</html>
