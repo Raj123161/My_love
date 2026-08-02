@@ -41,3 +41,28 @@ margin-top:20px;
 p{
 opacity:.8;
 }
+#heart{
+font-size:120px;
+animation:beat 1s infinite;
+}
+
+#key{
+font-size:70px;
+cursor:pointer;
+margin-top:40px;
+transition:all 2s ease;
+}
+
+.move{
+transform:translateY(-170px);
+}
+
+#keyText{
+margin-top:10px;
+font-size:32px;
+}
+
+p{
+font-size:22px;
+color:#ddd;
+}
